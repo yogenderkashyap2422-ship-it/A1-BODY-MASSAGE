@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { collection, query, doc, updateDoc, where, onSnapshot, orderBy } from 'firebase/firestore';
 import { db } from '../firebase';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../components/AuthContext';
 import { CheckCircle, Clock, AlertCircle, Phone, MapPin, User, IndianRupee, Navigation, Map as MapIcon } from 'lucide-react';
 import { motion } from 'motion/react';
 import LiveMap from '../components/LiveMap';

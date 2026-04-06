@@ -2,7 +2,6 @@ import { Outlet, useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import AIAssistant from './AIAssistant';
-import BottomNav from './BottomNav';
 import { motion, AnimatePresence } from 'motion/react';
 
 export default function Layout() {
@@ -27,7 +26,6 @@ export default function Layout() {
       </main>
       <Footer />
       <AIAssistant />
-      <BottomNav />
     </div>
   );
 }

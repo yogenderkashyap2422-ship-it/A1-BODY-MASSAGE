@@ -1,7 +1,7 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, User as UserIcon, LogOut, ShieldAlert } from 'lucide-react';
 import { useState } from 'react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from './AuthContext';
 import { cn } from '../lib/utils';
 
 export default function Navbar() {

@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { AuthProvider } from './contexts/AuthContext';
+import { AuthProvider } from './components/AuthContext';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -9,7 +9,6 @@ import Orders from './pages/Orders';
 import Report from './pages/Report';
 import Login from './pages/Login';
 import Admin from './pages/Admin';
-import Profile from './pages/Profile';
 import WorkerDashboard from './pages/WorkerDashboard';
 
 export default function App() {
@@ -26,7 +25,6 @@ export default function App() {
             <Route path="report" element={<Report />} />
             <Route path="login" element={<Login />} />
             <Route path="admin" element={<Admin />} />
-            <Route path="profile" element={<Profile />} />
             <Route path="worker" element={<WorkerDashboard />} />
           </Route>
         </Routes>

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../components/AuthContext';
 import { addDoc, collection } from 'firebase/firestore';
 import { db } from '../firebase';
 import { motion } from 'motion/react';

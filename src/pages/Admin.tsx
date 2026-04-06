@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { collection, query, getDocs, doc, updateDoc, where, addDoc } from 'firebase/firestore';
 import { db } from '../firebase';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../components/AuthContext';
 import { CheckCircle, XCircle, Clock, AlertCircle, Phone, MapPin, User, Briefcase, IndianRupee, Tag, Navigation } from 'lucide-react';
 import LiveMap from '../components/LiveMap';
 

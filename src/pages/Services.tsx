@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'motion/react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../components/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { addDoc, collection, getDocs, query, where } from 'firebase/firestore';
 import { db } from '../firebase';

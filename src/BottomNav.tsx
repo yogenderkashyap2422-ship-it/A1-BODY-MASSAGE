@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Home, List, ShoppingBag, User } from 'lucide-react';
-import { cn } from '../lib/utils';
-import { useAuth } from '../contexts/AuthContext';
+import { cn } from './lib/utils';
+import { useAuth } from './components/AuthContext';
 
 export default function BottomNav() {
   const location = useLocation();
